@@ -19,7 +19,7 @@ fun main(){
         if (withdrawal == null){
             println("Invalid Input")
         }else if (withdrawal % 100 == 0){
-            println("Amount of Rs.$withdrawal is Successful.")
+            println("Withdrawal of amount of Rs.$withdrawal is Successful.")
         }
         else{
             println("You can only withdrawl amount which is multiple of 100")
